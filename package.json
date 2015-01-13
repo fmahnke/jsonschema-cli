@@ -1,8 +1,12 @@
 {
   "name": "jsonschema-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Validate JSON against JSON Schema with a command line interface (CLI).",
   "main": "validateJson.js",
+  "bin": {
+    "validateJson": "./validateJson.js"
+  },
+  "keywords": ["json", "schema", "jsonschema", "validator", "cli"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
