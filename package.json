@@ -1,0 +1,23 @@
+{
+  "name": "jsonschema-cli",
+  "version": "0.1.1",
+  "description": "Validate JSON against JSON Schema with a command line interface (CLI).",
+  "main": "validateJson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fmahnke/jsonschema-cli"
+  },
+  "author": "Fritz Mahnke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmahnke/jsonschema-cli/issues"
+  },
+  "homepage": "https://github.com/fmahnke/jsonschema-cli",
+  "dependencies": {
+    "jsonschema": "^1.0.0",
+    "minimist": "^1.1.0"
+  }
+}
